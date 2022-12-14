@@ -888,6 +888,7 @@ CTA 3
   border: none;
   cursor: pointer;
   color: var(--second-color--);
+  margin: 0 0 1rem 0;
 }
 
 .cta--3-btn-active {
