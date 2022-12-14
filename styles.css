@@ -884,7 +884,7 @@ CTA 3
 .cta--3-btn {
   padding: 1rem;
   font-size: 1rem;
-  background: --;
+  background: transparent;
   border: none;
   cursor: pointer;
   color: var(--second-color--);
