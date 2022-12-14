@@ -10,6 +10,7 @@
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
     <nav class="nav--bar container">
@@ -19,7 +20,9 @@
       <div class="nav--box">
         <ul class="nav--list">
           <li class="nav--items"><a href="#" class="nav--links">Home</a></li>
-          <li class="nav--items"><a href="#" class="nav--links">About</a></li>
+          <li class="nav--items">
+            <a href="#about" class="nav--links">About</a>
+          </li>
           <li class="nav--items">
             <a href="#" class="nav--links">Features</a>
           </li>
@@ -158,7 +161,7 @@
       </div>
     </header>
 
-    <section class="cta--1">
+    <section class="cta--1" data-aos="fade-up">
       <div class="cta--1--content container">
         <div class="cta--1--text">
           <h1 class="cta--1--heading">Number One Digital Bank</h1>
@@ -208,6 +211,380 @@
       </div>
     </section>
 
+    <section class="cta--2" data-aos="fade-up">
+      <div class="cta--2--content container">
+        <div class="cta--2--text--box">
+          <h1 class="cta--2--heading">Banking Simplified</h1>
+          <p class="cta--2--body">
+            Lorem ipsum dolor sit amet consectetur. Sollicitudin nulla et
+            sodales semper justo dictum duis. In a id vel gravida amet sed
+            egestas. Consequat porttitor lorem dictum ac magna leo id. Sagittis
+            mi fermentum nunc aliquam tellus augue
+          </p>
+          <button class="btn cta--1--btn">
+            <div class="icon--left--box">
+              <span class="btn--icon--left"
+                ><i class="bx bx-right-arrow-alt"></i
+              ></span>
+            </div>
+            <p class="btn--text">Open Account</p>
+            <span class="btn--icon--right"
+              ><i class="bx bx-chevron-right"></i
+            ></span>
+          </button>
+        </div>
+        <div class="cta--2--img--box">
+          <img src="images/cta-2.png" alt="cta" />
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about" data-aos="fade-up">
+      <div class="about--content container">
+        <h1 class="about--head">ABOUT</h1>
+        <p class="about--subhead">Know Details About Our Company</p>
+        <ul class="about--btn--box">
+          <li class="about--btn">
+            <button
+              data-tab="1"
+              class="single--about--btn single--about--btn--active"
+            >
+              About
+            </button>
+          </li>
+          <li class="about--btn">
+            <button data-tab="2" class="single--about--btn">Our Vision</button>
+          </li>
+          <li class="about--btn">
+            <button data-tab="3" class="single--about--btn">Our Mission</button>
+          </li>
+        </ul>
+        <div
+          class="general--about--box general--about--box--active about--container--1"
+        >
+          <div class="about--img--box">
+            <img src="images/about-1.png" alt="about" />
+          </div>
+          <div class="about--text--box">
+            <h3 class="about--text--box--head">
+              We are Digital Bank Based In Africa
+            </h3>
+            <p class="about--text--body">
+              Lorem ipsum dolor sit amet consectetur. Elementum quam dictum non
+              enim accumsan sed quam. Non nisi ipsum bibendum tellus tortor.
+              Nullam a libero leo dolor scelerisque commodo. Vel aenean nibh sem
+              est sem blandit. Aliquet tempus diam non vehicula curabitur. Vitae
+              elit amet nisl quis egestas nibh cras. Sagittis
+            </p>
+            <p class="about--text--body">
+              Lorem ipsum dolor sit amet consectetur. Elementum quam dictum non
+              enim accumsan sed quam. Non nisi ipsum bibendum tellus tortor.
+            </p>
+            <button class="btn about--body--btn">
+              <div class="icon--left--box">
+                <span class="btn--icon--left"
+                  ><i class="bx bx-right-arrow-alt"></i
+                ></span>
+              </div>
+              <p class="btn--text">Read More</p>
+              <span class="btn--icon--right"
+                ><i class="bx bx-chevron-right"></i
+              ></span>
+            </button>
+          </div>
+        </div>
+        <div class="general--about--box about--container--2">
+          <div class="about--img--box">
+            <img src="images/about-3.jpg" alt="about" />
+          </div>
+          <div class="about--text--box">
+            <h3 class="about--text--box--head">OUR VISION</h3>
+            <p class="about--text--body">
+              Lorem ipsum dolor sit amet consectetur. Elementum quam dictum non
+              enim accumsan sed quam. Non nisi ipsum bibendum tellus tortor.
+              Nullam a libero leo dolor scelerisque commodo. Vel aenean nibh sem
+              est sem blandit. Aliquet tempus diam non vehicula curabitur. Vitae
+              elit amet nisl quis egestas nibh cras. Sagittis
+            </p>
+            <p class="about--text--body">
+              Lorem ipsum dolor sit amet consectetur. Elementum quam dictum non
+              enim accumsan sed quam. Non nisi ipsum bibendum tellus tortor.
+            </p>
+            <button class="btn about--body--btn">
+              <div class="icon--left--box">
+                <span class="btn--icon--left"
+                  ><i class="bx bx-right-arrow-alt"></i
+                ></span>
+              </div>
+              <p class="btn--text">Read More</p>
+              <span class="btn--icon--right"
+                ><i class="bx bx-chevron-right"></i
+              ></span>
+            </button>
+          </div>
+        </div>
+        <div class="general--about--box about--container--3">
+          <div class="about--img--box">
+            <img src="images/about-2.jpg" alt="about" />
+          </div>
+          <div class="about--text--box">
+            <h3 class="about--text--box--head">OUR MISSION</h3>
+            <p class="about--text--body">
+              Lorem ipsum dolor sit amet consectetur. Elementum quam dictum non
+              enim accumsan sed quam. Non nisi ipsum bibendum tellus tortor.
+              Nullam a libero leo dolor scelerisque commodo. Vel aenean nibh sem
+              est sem blandit. Aliquet tempus diam non vehicula curabitur. Vitae
+              elit amet nisl quis egestas nibh cras. Sagittis
+            </p>
+            <p class="about--text--body">
+              Lorem ipsum dolor sit amet consectetur. Elementum quam dictum non
+              enim accumsan sed quam. Non nisi ipsum bibendum tellus tortor.
+            </p>
+            <button class="btn about--body--btn">
+              <div class="icon--left--box">
+                <span class="btn--icon--left"
+                  ><i class="bx bx-right-arrow-alt"></i
+                ></span>
+              </div>
+              <p class="btn--text">Read More</p>
+              <span class="btn--icon--right"
+                ><i class="bx bx-chevron-right"></i
+              ></span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta--3" data-aos="fade-up">
+      <div class="cta--3-content container">
+        <div class="cta--3--side-1">
+          <div class="cta--3--img--box">
+            <img src="images/cta--3-1.png" alt="cta" />
+          </div>
+          <div class="cta--3--img--box">
+            <img src="images/cta--3-2.png" alt="cta" />
+          </div>
+          <div class="cta--3--img--box">
+            <img src="images/cta--3-3.png" alt="cta" />
+          </div>
+        </div>
+        <div class="cta--3-side-2">
+          <button class="cta--3-btn cta--3-btn-active" data-slide="0">
+            <p class="cta--btn--text">Customer Support</p>
+          </button>
+          <button class="cta--3-btn" data-slide="1">
+            <p class="cta--btn--text">Secured Payment</p>
+          </button>
+          <button class="cta--3-btn" data-slide="2">
+            <p class="cta--btn--text">Instant Transfer</p>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta--4" data-aos="fade-up">
+      <div class="cta--4--content container">
+        <div class="cta--4--text--content">
+          <h1 class="cta--4--head">We Are Beyond Banking</h1>
+          <p class="cta--4--sub--head">Enjoy Fast And Reliable Payments</p>
+          <p class="cta--4--body--text">
+            Lorem ipsum dolor sit amet consectetur. Augue facilisi semper
+            viverra nunc. Nibh libero dui urna blandit pulvinar nunc elit nam.
+            Nibh vel maecenas amet phasellus faucibus duis at. Elit aliquam
+            ultrices volutpat sed sed massa blandit feugiat. Auctor lobortis
+            pretium commodo mattis. Fringilla vulputate quis eget dui. Vulputate
+            aliquet suscipit id ipsum ipsum adipiscing tempus purus
+          </p>
+          <div class="cta--4--button--box">
+            <button class="btn cta--4--btn">
+              <div class="icon--left--box">
+                <span class="btn--icon--left"
+                  ><i class="bx bx-right-arrow-alt"></i
+                ></span>
+              </div>
+              <p class="btn--text">Open Account</p>
+              <span class="btn--icon--right"
+                ><i class="bx bx-chevron-right"></i
+              ></span>
+            </button>
+            <button class="btn--secondary cta--4--btn--secondary">
+              <p class="primary--btn--text">Download App</p>
+              <span class="primary--btn--icon"
+                ><i class="bx bx-download"></i
+              ></span>
+            </button>
+          </div>
+        </div>
+        <div class="cta--4--img--box">
+          <img src="images/cta--4.png" alt="cta" />
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonial" data-aos="fade-up">
+      <div class="testimonial--content container">
+        <h1 class="testimonial--head">What People Say</h1>
+        <p class="testimonial--sub--head">
+          Lorem ipsum dolor sit amet consectetur. Mattis laoreet eget ultrices
+          convallis. Orci proin libero volutpat tortor eget pellentesque lacus.
+          Etiam nunc dignissim at et amet. Pellentesque tristique eu.
+        </p>
+
+        <div class="testimonial--body">
+          <div class="single--testimonial">
+            <img src="images/quote.png" alt="quote" class="quote" />
+            <p class="testimonial--text">
+              “Lorem ipsum dolor sit amet consectetur. Tellus nec nisi enim
+              egestas. Sed id id lacus purus nisl viverra. Nullam.”
+            </p>
+            <img
+              src="images/testimonial-1.png"
+              alt="pics"
+              class="testimonial--pics"
+            />
+          </div>
+          <div class="single--testimonial">
+            <img src="images/quote.png" alt="quote" class="quote" />
+            <p class="testimonial--text">
+              “Lorem ipsum dolor sit amet consectetur. Tellus nec nisi enim
+              egestas. Sed id id lacus purus nisl viverra. Nullam.”
+            </p>
+            <img
+              src="images/testimonial-2.png"
+              alt="pics"
+              class="testimonial--pics"
+            />
+          </div>
+          <div class="single--testimonial">
+            <img src="images/quote.png" alt="quote" class="quote" />
+            <p class="testimonial--text">
+              “Lorem ipsum dolor sit amet consectetur. Tellus nec nisi enim
+              egestas. Sed id id lacus purus nisl viverra. Nullam.”
+            </p>
+            <img
+              src="images/testimonial-3.png"
+              alt="pics"
+              class="testimonial--pics"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact--center" data-aos="fade-up">
+      <div class="contact--center--content container">
+        <div class="contact--center--text">
+          <h1 class="contact--center--head">
+            We are available to serve you 24/7
+          </h1>
+          <p class="contact--center--subhead">
+            Need more help? Reach out to us via Social media, Telephone or
+            Email.Our support team is always available to assist you.
+          </p>
+          <p class="contact--center--text-body">
+            Lorem ipsum dolor sit amet consectetur. Augue facilisi semper
+            viverra nunc. Nibh libero dui urna blandit pulvinar nunc elit nam.
+            Nibh vel maecenas amet phasellus faucibus duis at. Elit aliquam
+            ultrices volutpat sed sed massa blandit feugiat. Auctor lobortis
+            pretium commodo mattis. Fringilla vulputate quis eget dui. Vulputate
+            aliquet suscipit id ipsum ipsum
+          </p>
+        </div>
+        <div class="contact--center--img-box">
+          <img src="/images/ccimg.png" alt="cc" />
+          <img
+            class="small--cc-img img--abs--1"
+            src="images/cc4.png"
+            alt="cc"
+          />
+          <img
+            class="small--cc-img img--abs--2"
+            src="images/cc2.png"
+            alt="cc"
+          />
+          <img
+            class="small--cc-img img--abs--3"
+            src="images/cc1.png"
+            alt="cc"
+          />
+          <img
+            class="small--cc-img img--abs--4"
+            src="images/cc3.png"
+            alt="cc"
+          />
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer--section" data-aos="fade-up">
+      <div class="footer--content container">
+        <div class="footer--top-part">
+          <ul class="single--footer">
+            <li class="footer--item">
+              <a href="#" class="footer--logo"
+                ><img src="images/footer-logo.png" alt="logo"
+              /></a>
+            </li>
+            <li class="footer--item">Home</li>
+            <li class="footer--item">About</li>
+            <li class="footer--item">Career</li>
+          </ul>
+          <ul class="single--footer">
+            <li class="footer--item--head">Help</li>
+            <li class="footer--item">Customer Support</li>
+            <li class="footer--item">Call Center</li>
+            <li class="footer--item">Email Support</li>
+            <li class="footer--item">Chat Support</li>
+          </ul>
+          <ul class="single--footer">
+            <li class="footer--item--head">Company</li>
+            <li class="footer--item">Policy</li>
+            <li class="footer--item">Mission</li>
+            <li class="footer--item">Vision</li>
+            <li class="footer--item">About</li>
+          </ul>
+          <ul class="single--footer">
+            <li class="footer--item--head">Products</li>
+            <li class="footer--item">Credit Card</li>
+            <li class="footer--item">Loan</li>
+            <li class="footer--item">Investment</li>
+            <li class="footer--item">Online</li>
+          </ul>
+        </div>
+
+        <div class="footer--bottom-part">
+          <ul class="social--box">
+            <li class="social--item">
+              <img src="images/footer-1.png" alt="social" />
+            </li>
+            <li class="social--item">
+              <img src="images/footer-2.png" alt="social" />
+            </li>
+            <li class="social--item">
+              <img src="images/footer-3.png" alt="social" />
+            </li>
+            <li class="social--item">
+              <img src="images/footer-4.png" alt="social" />
+            </li>
+          </ul>
+          <ul class="bottom--box">
+            <li class="bottom--item">Privacy</li>
+            <li class="bottom--item">Policy</li>
+            <li class="bottom--item">Terms & Conditions</li>
+          </ul>
+          <p class="copyright">&#169; OLA</p>
+        </div>
+      </div>
+    </footer>
+
     <script src="main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1300,
+        once: true,
+      });
+    </script>
   </body>
 </html>
